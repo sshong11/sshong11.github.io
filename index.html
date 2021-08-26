@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img id="pic" src="https://cdn.iconscout.com/icon/free/png-512/cloudy-weather-1671525-1422453.png">
+        </nav>
+    </header>
+    <h1>AJAX Weather Lab</h1>
+    <main>
+        <p id="city">Weather For:</p>
+        <p id="temperature">Temperature:</p>
+        <p id="feels">Feels Like:</p>
+        <p id="weather">Weather:</p>
+    </main>
+    <form>
+        <input type="text" placeholder="City Name"/>
+        <input type="submit" value="Get Weather Info"/>
+    </form>
+    <form id="forecast">
+        <label>How many days to forecast: </label>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+        </select>
+    </form>
+    <footer>
+        made by stephen
+    </footer>
+</body>
+</html>
